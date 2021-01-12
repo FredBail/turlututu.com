@@ -1,0 +1,64 @@
+* {
+    background-color: white;
+    color: white;
+}
+
+.header{
+    background-color: #333333;
+}
+.header_dans_main{
+    background-color: #1e93cc;
+}
+.article_section1{
+    background-color: #1e93cc;
+}
+#titre_section1{
+    color:black;
+}
+#titre_section2{
+    color: #eeeeee;
+}
+
+nav { /* Barre de navigation supérieure */
+    background-color : #333333;
+    width : 80%;
+    margin-left : auto;
+    margin-right : auto;
+    display : flex;
+}
+nav a{
+    font-size : 15px;
+}
+nav ul {
+    display : flex;
+    flex-flow : row wrap;
+    align-items:flex-end;
+    width : 80%;
+    padding : 1%;
+    margin-left : 15%;
+    vertical-align:bottom;
+}
+nav ul li {
+    list-style-type : none;
+    margin-right : 25px;
+}
+nav ul li:nth-last-child(1) {
+    align-self:flex-end;
+    font-size:12px;
+    margin-left:auto;
+}
+    
+nav ul li .marge{
+    padding-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
