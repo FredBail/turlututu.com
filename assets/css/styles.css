@@ -1,26 +1,16 @@
-/** {
-    background-color: white;
+nav { /* Barre de navigation supérieure */
+    background-color : #333333;
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+    display : flex;
+}
+nav a{
+    font-size : 12px;
     color: white;
+    text-decoration: none;
 }
-
-.header{
-    background-color: #333333;
-}
-.header_dans_main{
-    background-color: #1e93cc;
-}
-.article_section1{
-    background-color: #1e93cc;
-}
-#titre_section1{
-    color:black;
-}
-#titre_section2{
-    color: #eeeeee;
-}*/
-
-
-    nav ul {
+nav ul {
     color : #fff;
     display : flex;
     text-align : center;
@@ -46,43 +36,7 @@
     margin-left:auto;
     }
 
-
-nav { /* Barre de navigation supérieure */
-    background-color : #333333;
-    width : 100%;
-    margin-left : auto;
-    margin-right : auto;
-    display : flex;
-}
-nav a{
-    font-size : 12px;
-    color: white;
-    text-decoration: none;
-}
-/* nav ul {
-    display : flex;
-    flex-flow : row wrap;
-    align-items:flex-end;
-    width : 80%;
-    padding : 1%;
-    margin-left : 15%;
-    vertical-align:bottom;
-}
-nav ul li {
-    list-style-type : none;
-    margin-right : 25px;
-}
-nav ul li:nth-last-child(1) {
-    align-self:flex-end;
-    font-size:12px;
-    margin-left:auto;
-}
-    
-nav ul li .marge{
-    padding-top:20px;
-}*/
-
-.header {
+.section0 {
     background-color : #1e93cc;
     width : 100%;
     margin : auto;
@@ -97,7 +51,6 @@ nav ul li .marge{
     }
 .perso {
     content : '';
-    background-image : url("https://zupimages.net/up/20/24/kwqj.png");
     background-repeat : no-repeat;
     width : 308px;
     height : 89px;
@@ -116,7 +69,7 @@ nav ul li .marge{
     width : 100%;
     }
     
-.button_perso { /* bouton ok */
+.button_perso { /* bouton orange près du developer */
     background-color : #e99002;
     border-radius : 5px;
     border : #fff solid 1px;
@@ -128,30 +81,7 @@ nav ul li .marge{
     margin-top : 15px;
     font-size : 20px;
 }
-.button_orange { /* bouton ok */
-    background-color : #e99002;
-    border-radius : 5px;
-    border : #fff solid 1px;
-    width : 50%;
-    text-align : center;
-    padding : 11px;
-    color : #fff;
-    margin-left : 4px;
-    margin-top : 15px;
-    font-size : 20px;
-}
-.button_blue { /* bouton ok */
-    background-color : #165882;
-    border-radius : 5px;
-    border : #fff solid 1px;
-    width : 50%;
-    text-align : center;
-    padding : 11px;
-    color : #fff;
-    margin-left : 4px;
-    margin-top : 15px;
-    font-size : 20px;
-}
+
     main {
     width : 75%;
     margin : auto;
@@ -160,19 +90,25 @@ nav ul li .marge{
     main section{
     margin-bottom:0;
     }
-    main section h2 {
+
+.section1 h2{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+.titre_section1 { /* titre de la section1 */
     text-align : center;
-    background-color : rgb(255, 255, 255);
+    background-color : #ffffff;
     text-align : center;
     font-weight : 400;
     letter-spacing : -1px;
     padding : 15px;
-    }
+}
     main article h3 {
     font-weight : 300;
     margin-bottom : 5px;
     }
-    main section .boite1 {
+.article_section1 { /* articles des colonnes en bleu */
     background-color : #1e93cc;
     display : flex;
     flex-wrap: row wrap;
@@ -181,25 +117,25 @@ nav ul li .marge{
     padding-right : 10%;
     padding-top : 5%;
     padding-bottom : 15%;
-    }
-    main section article .col {
+}
+.colonnes { /* colonnes qui sont en bleu */
     margin-left : 3%;
-    }
-    main section article .col p {
+}
+.colonnes p { /* éléments dans les articles en colonne */
     text-align : justify;
     font-size : 12px;
     line-height : 14px;
     margin-bottom : 5px;
-    }
+}
     
 .section2{ /* background de la section2 */
-    background-color:#eeeeee;
+    background-color:#ffffff;
 }
 .section2 h2 { /* titre h2 dans la section2 */
     text-align : center;
     font-weight : 400;
     letter-spacing : -1px;
-    color : rgb(139, 139, 136);
+    color : #7d6f6f;
     margin-top:-10%;
 }
     
@@ -208,6 +144,7 @@ nav ul li .marge{
     }
 
 .section2 ul{ /* liste des partenaires */
+    background-color: #eeeeee;
     display : flex;
     flex-flow : row wrap;
     align-items:flex-end;
@@ -233,6 +170,7 @@ main .section2 li{ /* pas de point pour les listes */
     margin-bottom:5%;
 }
 .footer_dans_section { /* footer_dans_section */
+    background-color: #ffffff;
     margin-left:auto;
     margin-right:auto;
     display: inline-block;
@@ -241,6 +179,30 @@ main .section2 li{ /* pas de point pour les listes */
     flex-wrap : wrap;
     padding-top:5%;
     padding-bottom:7%;
+}
+.button_orange { /* bouton orange dans footer_dans_section */
+    background-color : #e99002;
+    border-radius : 5px;
+    border : #fff solid 1px;
+    width : 50%;
+    text-align : center;
+    padding : 11px;
+    color : #fff;
+    margin-left : 4px;
+    margin-top : 15px;
+    font-size : 20px;
+}
+.button_blue { /* bouton bleu dans footer_dans_section */
+    background-color : #165882;
+    border-radius : 5px;
+    border : #fff solid 1px;
+    width : 50%;
+    text-align : center;
+    padding : 11px;
+    color : #fff;
+    margin-left : 4px;
+    margin-top : 15px;
+    font-size : 20px;
 }
 footer { /* footer */
     background-color : #222222;
