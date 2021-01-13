@@ -195,12 +195,13 @@ main .section2 li{ /* pas de point pour les listes */
     padding-bottom:7%;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
 .button_orange { /* bouton orange dans footer_dans_section */
     background-color : #e99002;
     border-radius : 5px;
     border : #fff solid 1px;
-    width : 50%;
+    width : 200px;
     text-align : center;
     padding : 11px;
     color : #fff;
@@ -212,7 +213,7 @@ main .section2 li{ /* pas de point pour les listes */
     background-color : #165882;
     border-radius : 5px;
     border : #fff solid 1px;
-    width : 50%;
+    width : 200px;
     text-align : center;
     padding : 11px;
     color : #fff;
@@ -231,7 +232,7 @@ footer { /* footer */
     padding-bottom:15px;
 }
 footer a { /* liens du footer */
-    font-size : 12px;
+    font-size : 13px;
     color: white;
     text-decoration: none;
 }
